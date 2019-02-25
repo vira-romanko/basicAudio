@@ -7,11 +7,18 @@
 		<body>
 
 <h1> This is audio!!!</h1>
-<audio autoplay loop controls>
-	<source src="audio/sail.mp3">
+<audio  loop >
+	<source src="audio/sail.mp3" >
 </audio>
+<img data-currenttrack="STP_Interstate_Love_Song.mp3" src="images/coldplay.jpg" alt="coldplay image" class="trackholder" width="700" height="500">
+<img data-currenttrack="Companion.mp3" src="images/images.jpeg" alt="Second image" class="trackholder" width="500" height="200">
+<img data-currenttrack="Sail.mp3" src="images/sail.jpg" alt="Sail image" class="trackholder" width="500" height="500">
 
-
+<div>
+   <button id="playAudio"> Play</button>
+   <button id="stopAudio"> Pause</button>
+   <button id="rewindAudio"> Rewind</button>
+</div>
 
 
 		<script src="js/main.js"></script>
